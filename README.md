@@ -16,6 +16,12 @@ npm install
 npm start
 ```
 
+### Api url:
+
+```javascript
+https://mysterious-savannah-50993.herokuapp.com/news
+```
+
 
 ![app](./docs/images/design.png)
 
