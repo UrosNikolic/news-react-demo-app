@@ -6,6 +6,7 @@ import About from './components/about/About'
 import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
 import Article from './components/article/Article'
+// import Article from './components/article/ArticleHook'
 
 class App extends Component {
   render() {
