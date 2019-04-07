@@ -15,3 +15,7 @@ cd into root folder of the app and run commands:
 npm install
 npm start
 ```
+
+
+![app](./docs/images/design.png)
+
