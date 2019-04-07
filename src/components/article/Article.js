@@ -16,7 +16,7 @@ class Article extends Component {
   }
 
   componentDidMount() {
-    fetch(`https://mysterious-savannah-50993.herokuapp.com/news/${this.state.articleId}`)
+    fetch(`${process.env.REACT_APP_API_URL}/news/${this.state.articleId}`)
       .then(res => res.json())
       .then(
         (data) => {

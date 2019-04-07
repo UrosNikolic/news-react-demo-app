@@ -10,7 +10,7 @@ function Article (props) {
   const [isLoaded, setIsLoaded] = useState(false)
 
   useEffect(() => {
-    fetch(`https://mysterious-savannah-50993.herokuapp.com/news/${articleId}`)
+    fetch(`${process.env.REACT_APP_API_URL}/news/${articleId}`)
       .then(res => res.json())
       .then(
         (data) => {

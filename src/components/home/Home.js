@@ -23,7 +23,7 @@ class Home extends Component {
   }
 
   componentDidMount() {
-    fetch('https://mysterious-savannah-50993.herokuapp.com/news')
+    fetch(`${process.env.REACT_APP_API_URL}/news`)
       .then(res => res.json())
       .then(
         (data) => {
