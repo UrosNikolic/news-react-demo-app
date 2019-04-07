@@ -5,6 +5,10 @@
     padding: 20px 0;
     min-height: calc(100vh - 90px);
 
+    img {
+        max-width: 100%;
+    }
+    
     p {
         margin-bottom: 20px;
     }
