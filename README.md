@@ -3,6 +3,7 @@
 
 ### Purpose of this app is for demonstrating React concepts during a workshop
 
+#### Slides from the workshop are located in "docs/slides" folder
 Requirements
 
 - latest version of node and npm
